@@ -14,20 +14,29 @@
 
  <body style="background-image: url(assets/bgimgg.jpg); background-size: cover; background-repeat: no-repeat; ">
   <!-- navbar -->
-  <div class="navbar-nav">
-    <ul>
-      <li>
-        <a class="nav-logo"><img src="assets/loogoo-removebg-preview.png" alt="" style="height: 60px; width: 120px;"></a>
-        <a class="nav-item" href="index.html">Home</a>
-        <a class="nav-item" href="product.html">Product</a>
-        <a class="nav-item" href="about.html">About Us</a>
-        <a class="nav-item" href="contact.html">Contact Us</a>
-       
-        <a style="text-decoration: none;" class="nav-btn" href="signin.html">Sign In</a>
-      </li>
-    </ul>
-  </div>
-  </div>
+  <nav class="navbar navbar-expand-lg bg-transparent">
+    <div class="container-fluid">
+      <a class="navbar-brand">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="sidebar collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 bg-transparent text-center">
+          <img src="assets/loogoo-removebg-preview.png" style="height: 60px; width: 120px;">
+          <li class="nav-item mt-0"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item mt-4"><a class="nav-link" href="product.html">Products</a></li>
+          <li class="nav-item mt-4"><a class="nav-link" href="about.html">About Us</a></li>
+          <li class="nav-item mt-4"><a class="nav-link" href="#">Contact Us</a></li>
+        </ul>
+        <a href="signin.html">
+          <form class="d-flex">
+            <button style="text-decoration: none;" class="btn btn-outline-dark text-black" type="submit">Sign in</button>
+          </form>
+        </a>
+      </div>
+    </div>
+  </nav>
+  
          
     <!-- login form -->
    <div class="d-flex justify-content-center align-items-center">

@@ -307,12 +307,12 @@ box-shadow: none !important;
 
 @media (max-width: 991px){
 .sidebar{
-  background-color: rgba(255, 255, 255, 0.144);
+  background-color: rgb(255, 255, 255);
   backdrop-filter: blur(10px);
 }
 .nav-link{
   background-color: rgba(255, 255, 255, 0.144);
-  color: rgba(255, 255, 255, 0.904);
+  color: rgba(17, 17, 17, 0.904);
 }
 }
 
